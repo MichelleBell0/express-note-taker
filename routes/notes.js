@@ -1,6 +1,7 @@
 const notes = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
-const { readAndAppend, readFromFile } = require('../helpers/utils');
+const { readAndAppend, readFromFile, writeToFile } = require('../helpers/utils');
+const { json } = require('express');
 
 // GET route for retrieving all the notes
 notes.get('/', (req, res) =>
@@ -29,6 +30,20 @@ notes.post('/', (req, res) => {
     } else {
         res.json('Error in saving note');
     }
+});
+
+// DELETE route for deleting a specific note using params
+notes.delete('/:id', (req, res) => {
+    const noteId = req.params.id;
+    readFromFile('./db/db.json')
+        .then((data) => JSON.parse(data))
+        .then((json) => {
+            const newNotesList = json.filter((notes) => notes.id !== noteId);
+
+            writeToFile('./db/db.json', newNotesList);
+
+            res.json(`Note ${noteId} has been deleted from the list`);
+        });
 });
 
 module.exports = notes;

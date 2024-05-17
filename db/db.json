@@ -5,7 +5,22 @@
     },
     {
         "title": "Dishes",
-        "text": "Today",
-        "id": "5f969faa-daae-4e6f-b7ee-49cc2f25c366"
+        "text": "today",
+        "id": "429ef740-20fd-4ad4-a941-32087bd819dd"
+    },
+    {
+        "title": "Laundry",
+        "text": "Dry and fold",
+        "id": "aed39ebc-6d49-4dc0-a668-15b2c131df2c"
+    },
+    {
+        "title": "Groceries",
+        "text": "- apple\n- pears\n-chicken\n-eggs\n-milk",
+        "id": "d93d4494-ed27-46a4-b85b-2696ab118333"
+    },
+    {
+        "title": "Cook Dinner",
+        "text": "Beef Wellington",
+        "id": "b1c9bbd7-834f-4e73-850b-fd25f9196f40"
     }
 ]
