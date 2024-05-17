@@ -20,7 +20,10 @@ npm i
 ```
 
 ## Usage
-Make sure to clone this repository, install all the dependencies, and start the application by running npm run start.
+Make sure to clone this repository, install all the dependencies, and start the application by running:
+```bash
+npm run start.
+```
 
 ## License
 ### MIT License
@@ -29,14 +32,10 @@ Make sure to clone this repository, install all the dependencies, and start the 
 Anyone can contribute to the repository.
 
 ## References
-`helpers/utils.js`: The code in this file was reference from the Bootcamp's Week 11 Mini Project: [View source code](https://git.bootcampcontent.com/University-of-Toronto/UTOR-VIRT-FSF-PT-02-2024-U-LOLC.git)
+`helpers/utils.js`: The code in this file was reference from the Bootcamp's Week 11 Mini Project: [View source code here](https://git.bootcampcontent.com/University-of-Toronto/UTOR-VIRT-FSF-PT-02-2024-U-LOLC.git).
 
 ## Tests
-To run tests, use this command: 
-
-```bash
 No test commands.
-```
 
 ## Questions
 If you have any questions about the project, please feel free to visit my [GitHub](https://github.com/MichelleBell0) or [email me](mailto:michbesch0@outlook.com)!
