@@ -9,6 +9,7 @@ This application is a note taker that will save and retrieve notes. The user can
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
+- [References](#references)
 - [Tests](#tests)
 - [Questions](#questions)
 
